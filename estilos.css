@@ -1,0 +1,51 @@
+/* >>> GERAL <<< */
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;   
+}
+
+body{
+    background-color: #015958;
+}
+
+/* >>> Conteúdo Principal <<< */
+form{
+    background-color: #FFF;
+    width: 70%;
+    max-width: 500px;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+form h3{
+    text-align: center;
+    color: #015958;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+form input[type=text]{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    border-radius: 30px;
+    margin: 10px 0px 10px 0px;
+}
+form input[type=submit], form input[type=button]{
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+    background-color: #008F8C;
+    border-radius: 20px;
+    border: 0;
+    color: #FFF;
+    margin-top: 10px;
+}
+form input[type=submit]:hover, form input[type=button]:hover{
+    background-color: #007977;
+}
